@@ -1,0 +1,1813 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <title>Cine World</title>
+</head>
+
+<body class="estilo">
+    <header class="nav">
+        <div class="w-75 m-auto">
+            <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="img/popCorn.png" width="50" class="mx-2">Cine World</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="filmes.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Filmes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#acao">Ação</a></li>
+                                    <li><a class="dropdown-item" href="#comedia">Comédia</a></li>
+                                    <li><a class="dropdown-item" href="#romance">Romance</a></li>
+                                    <li><a class="dropdown-item" href="#animacao">Animação</a></li>
+                                </ul>
+                            </li>
+                            <a class="nav-link" href="series.html">Séries</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="w-75 m-auto">
+        <div class="filmes">
+            <div class="acao" id="acao">
+                <h2 class="mt-3">Filmes de Ação</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/madMax.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Mad Max: Estrada da Fúria</h5>
+                                <p class="card-text"><b>Principais atores:</b> Tom Hardy, Charlize Theron</p>
+                                <p class="card-text"><b>Diretor:</b> George Miller</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2015</p>
+                                <img src="img/+16.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal1"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Prêmios AACTA:</b></p>
+                                    Melhor Filme<br />
+                                    Melhor Direção<br />
+                                    Melhor Cinematografia<br />
+                                    Melhor Edição<br />
+                                    Melhor Som<br />
+                                    Melhor Filme Internacional<br />
+                                    Melhor Direção Internacional<br />
+                                    Melhores efeitos visuais ou animação<br />
+                                    <br>
+                                    <p><b>Oscar 2016:</b></p>
+                                    Melhor Edição de Som<br />
+                                    Melhor Mixagem de Som<br />
+                                    Melhor Direção de Arte<br />
+                                    Melhor Maquiagem e Penteados<br />
+                                    Melhor Figurino<br />
+                                    Melhor Edição<br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                    <a class="btn btn-danger"
+                                        href="https://en.wikipedia.org/wiki/List_of_accolades_received_by_Mad_Max:_Fury_Road"
+                                        target="_blank" role="button">Mais Prêmios!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/oExterminadorDoFuturo.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">O Exterminador Do Futuro 2: O Julgamento Final</h5>
+                                <p class="card-text"><b>Principais atores:</b> Arnold Schwarzenegger, Linda Hamilton</p>
+                                <p class="card-text"><b>Diretor:</b> James Cameron</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1991</p>
+                                <img src="img/+14.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal2"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>45º Prêmios BAFTA:</b></p>
+                                    Melhor som<br>
+                                    Melhores efeitos visuais<br>
+                                    <br>
+                                    <p><b>Oscar 1992:</b></p>
+                                    Melhor som<br>
+                                    Melhores efeitos visuais<br>
+                                    Melhor edição de som<br>
+                                    <br>
+                                    <p><b>MTV Movie Awards 1992:</b></p>
+                                    Melhor desempenho inovador<br>
+                                    Melhor sequência de ação<br>
+                                    Melhor filme<br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                    <a class="btn btn-danger"
+                                        href="https://pt.wikipedia.org/wiki/Terminator_2:_Judgment_Day" target="_blank"
+                                        role="button">Mais Prêmios!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/vingadores.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Vingadores: Ultimato</h5>
+                                <p class="card-text"><b>Principais atores:</b> Robert Downey Jr., Chris Evans, Scarlett
+                                    Johansson</p>
+                                <p class="card-text"><b>Diretores:</b> Anthony Russo, Joe Russo</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2019</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal3"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>MTV Movie & TV Awards:</b></p>
+                                    Melhor Filme<br>
+                                    Melhor Herói<br>
+                                    Melhor Vilão<br>
+                                    <br>
+                                    <p><b>Critics' Choice Movie Awards:</b></p>
+                                    Melhores Efeitos Visuais<br>
+                                    Melhor Filme de Ação<br>
+                                    Melhor edição de som<br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                    <a class="btn btn-danger"
+                                        href="https://pt.wikipedia.org/wiki/Lista_de_pr%C3%AAmios_e_indica%C3%A7%C3%B5es_recebidos_por_Avengers:_Endgame"
+                                        target="_blank" role="button">Mais Prêmios!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/johnWick.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">John Wick</h5>
+                                <p class="card-text"><b>Principais atores:</b> Keanu Reeves, Willem Dafoe</p>
+                                <p class="card-text"><b>Diretor:</b> Chad Stahelski</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2014</p>
+                                <img src="img/+18.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal4"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Taurus World Stunt Awards:</b></p>
+                                    Melhor Luta<br>
+                                    <br>
+                                    <p>A franquia também foi reconhecida com indicações a vários outros prêmios, como o
+                                        Golden Trailer Awards e o Empire Award
+
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/gladiador.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Gladiador</h5>
+                                <p class="card-text"><b>Principais atores:</b> Russell Crowe, Joaquin Phoenix</p>
+                                <p class="card-text"><b>Diretor:</b> Ridley Scott</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2000</p>
+                                <img src="img/+16.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal5">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Oscar 2001:</b></p>
+                                    Melhor Filme<br>
+                                    Melhor ator<br>
+                                    Melhores efeitos visuais<br>
+                                    Melhor som<br>
+                                    Melhor figurino<br>
+                                    <br>
+                                    <p><b>BAFTA 2001:</b></p>
+                                    Melhor cinematografia<br>
+                                    Melhor filme<br>
+                                    Melhor montagem<br>
+                                    Melhor design de produção<br>
+                                    <br>
+                                    <p><b>Globo de Ouro 2001:</b></p>
+                                    Melhor trilha sonora<br>
+                                    Melhor filme - drama<br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                    <a class="btn btn-danger"
+                                        href="https://pt.wikipedia.org/wiki/Gladiador_(filme)#Principais_pr%C3%AAmios_e_indica%C3%A7%C3%B5es"
+                                        target="_blank" role="button">Mais Prêmios!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/duroDeMatar.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Duro de Matar</h5>
+                                <p class="card-text"><b>Principais atores:</b> Bruce Willis, Alan Rickman</p>
+                                <p class="card-text"><b>Diretor:</b> John McTiernan</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1988</p>
+                                <img src="img/+16.png" width="40">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/oCavaleiroDasTrevas.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">O Cavaleiro Das Trevas</h5>
+                                <p class="card-text"><b>Principais atores:</b> Christian Bale, Heath Ledger</p>
+                                <p class="card-text"><b>Diretor:</b> Christopher Nolan</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2008</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal7">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>oscar 2009:</b></p>
+                                    Melhor edição de som <br>
+                                    Melhor ator coadjuvante<br>
+                                    <br>
+                                    <p><b>Empire Award:</b></p>
+                                    Melhor Filme<br>
+                                    <br>
+                                    <p><b>MTV Movie Award:</b></p>
+                                    Melhor Vilão
+                                    <br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                    <a class="btn btn-danger"
+                                        href="https://en.wikipedia.org/wiki/List_of_accolades_received_by_The_Dark_Knight"
+                                        target="_blank" role="button">Mais Prêmios!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/007-casinoRoyale.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">007 - Casino Royale</h5>
+                                <p class="card-text"><b>Principais atores:</b> Daniel Craig, Eva Green</p>
+                                <p class="card-text"><b>Diretor:</b> Martin Campbell</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2006</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal8">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Prêmios:</b></p>
+                                    Melhor Som<br>
+                                    Melhor Filme Britânico<br>
+                                    Melhor Roteiro<br>
+                                    Melhor Música<br>
+                                    Melhor Fotografia<br>
+                                    Melhor Edição <br>
+                                    Melhor Realização em Efeitos Visuais Especiais <br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                    <a class="btn btn-danger"
+                                        href="https://pt.wikipedia.org/wiki/Casino_Royale_(2006)#Pr%C3%AAmios_e_indica%C3%A7%C3%B5es"
+                                        target="_blank" role="button">Mais Prêmios!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/oProtetor.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">O Protetor</h5>
+                                <p class="card-text"><b>Principais atores:</b> Denzel Washington, Chloe Grace Moretz</p>
+                                <p class="card-text"><b>Diretor:</b> Antoine Fuqua</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2014</p>
+                                <img src="img/+16.png" width="40">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/inception.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Inception</h5>
+                                <p class="card-text"><b>Principais atores:</b> Leonardo DiCaprio, Joseph Gordon-Levitt
+                                </p>
+                                <p class="card-text"><b>Diretor:</b> Christopher Nolan</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2010</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal10">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Oscar 2011:</b></p>
+                                    Melhor Mixagem de Som<br>
+                                    Melhor Edição de Som<br>
+                                    Melhor Fotografia<br>
+                                    Melhores Efeitos Visuais<br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                    <a class="btn btn-danger"
+                                        href="https://pt.wikipedia.org/wiki/A_Origem#Pr%C3%AAmios_e_indica%C3%A7%C3%B5es"
+                                        target="_blank" role="button">Mais Prêmios!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/thunderbolts.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Thunderbolts</h5>
+                                <p class="card-text"><b>Principais atores:</b> Florence Pugh, Sebastian Stan, David
+                                    Harbour</p>
+                                <p class="card-text"><b>Diretora:</b> Jake Schreier</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2025</p>
+                                <img src="img/+14.svg" width="40">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/viuvaNegra.jpeg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Viúva Negra</h5>
+                                <p class="card-text"><b>Principais atores:</b> Scarlett Johansson, Florence Pugh, Rachel
+                                    Weisz</p>
+                                <p class="card-text"><b>Diretora:</b> Cate Shortland</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2021</p>
+                                <img src="img/+12.svg" width="40">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="comedia" id="comedia">
+                <h2 class="mt-3">Filmes de Comédia</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/seBeberNaoCase.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Se Beber, Não Case!</h5>
+                                <p class="card-text"><b>Principais atores:</b> Bradley Cooper, Zach Galifianakis</p>
+                                <p class="card-text"><b>Diretor:</b> Todd Phillips</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2009</p>
+                                <img src="img/+16.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal40">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal40" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>MTV Movie Award:</b></p>
+                                    Melhor Momento "Que P**** é Essa?"<br>
+                                    Melhor Comediante<br>
+                                    <br>
+                                    <p><b>Prêmio Globo de Ouro:</b></p>
+                                    Melhor Filme Cômico ou Musical<br>
+                                    <br>
+                                    <p><b>Critics' Choice Award:</b></p>
+                                    Melhor Comédia<br>
+                                    <br>
+                                    <p><b>Prêmio AFI:</b></p>
+                                    Melhor Filme do Ano<br>
+                                    <br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/missSimpatia.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Miss Simpatia</h5>
+                                <p class="card-text"><b>Principais atores:</b> Sandra Bullock, Michael Caine</p>
+                                <p class="card-text"><b>Diretor:</b> Donald Petrie</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2000</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal41">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal41" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Teen Choice Award: </b></p>
+                                    Melhor Filme de Comédia<br>
+                                    Wipeout<br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/superbad.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Superbad - É Hoje</h5>
+                                <p class="card-text"><b>Principais atores:</b> Jonah Hill, Michael Cera</p>
+                                <p class="card-text"><b>Diretor:</b> Greg Mottola</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2007</p>
+                                <img src="img/+16.png" width="40">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/asBranquelas.jpeg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">As Branquelas</h5>
+                                <p class="card-text"><b>Principais atores:</b> Shawn Wayans, Marlon Wayans</p>
+                                <p class="card-text"><b>Diretor:</b> Keenen Ivory Wayans</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2004</p>
+                                <img src="img/+12.svg" width="40">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/aProposta.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">A Proposta</h5>
+                                <p class="card-text"><b>Principais atores:</b> Sandra Bullock, Ryan Reynolds</p>
+                                <p class="card-text"><b>Diretora:</b> Anne Fletcher</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2009</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal42">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal42" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Teen Choice Award: </b></p>
+                                    Melhor Atriz em Filme de Comédia Romântica<br>
+                                    Filme de Verão, Romance <br>
+                                    Cinema - Melhor dança<br>
+                                    <br>
+                                    <p><b>People's Choice Award: </b></p>
+                                    Melhor Filme de Comédia<br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/oMentiroso.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">O Mentiroso</h5>
+                                <p class="card-text"><b>Principais atores:</b> Jim Carrey, Jennifer Tilly</p>
+                                <p class="card-text"><b>Diretor:</b> Tom Shadyac</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1997</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal43">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal43" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>MTV Movie Award: </b></p>
+                                    Melhor Comediante <br>
+                                    <br>
+                                    <p><b>People's Choice Award: </b></p>
+                                    Melhor Filme de Comédia<br>
+                                    <br>
+                                    <p><b>ASCAP Film and Television Music Award: </b></p>
+                                    Filmes com Maior Bilheteria<br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/legalmenteLoira.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Legalmente Loira</h5>
+                                <p class="card-text"><b>Principais atores:</b> Reese Witherspoon, Luke Wilson, Selma
+                                    Blair</p>
+                                <p class="card-text"><b>Diretor:</b> Robert Luketic</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2001</p>
+                                <img src="img/livre.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal44">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal44" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>MTV Movie Award: </b></p>
+                                    Melhor Comediante<br>
+                                    Melhor Fala <br>
+                                    Melhor Vestido<br>
+                                    <br>
+                                    <p><b>Teen Choice Award: </b></p>
+                                    Escolha de Filme do Verão<br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/oMaskara.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">O Máskara</h5>
+                                <p class="card-text"><b>Principais atores:</b> Jim Carrey, Cameron Diaz</p>
+                                <p class="card-text"><b>Diretor:</b> Chuck Russell</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1994</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal45">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal45" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>MTV Movie Award: </b></p>
+                                    Melhor Comediante<br>
+                                    <br>
+                                    <p><b>Nickelodeon Kid's Choice Award: </b></p>
+                                    Ator de Cinema Favorito<br>
+                                    <br>
+                                    <p><b>Kids' Choice Award: </b></p>
+                                    Favorite Animal Star<br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/reiDaComedia.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">O Rei Da Comédia</h5>
+                                <p class="card-text"><b>Principais atores:</b> Robert De Niro, Jerry Lewis</p>
+                                <p class="card-text"><b>Diretor:</b> Martin Scorsese</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1982</p>
+                                <img src="img/+14.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal46">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal46" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Prêmio BAFTA de Cinema:</b></p>
+                                    Melhor Roteiro Original <br>
+                                    <br>
+                                    <p><b>National Society of Film Critics Award: </b></p>
+                                    Melhor Atriz Coadjuvante<br>
+                                    <br>
+                                    <p>London Film Critics Circle de Melhor Filme do Ano </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/aMorteTeDaParabens.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">A Morte Te Da Parabéns</h5>
+                                <p class="card-text"><b>Principais atores:</b> Jessica Rothe, Israel Broussard</p>
+                                <p class="card-text"><b>Diretor:</b> Christopher Landon</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2017</p>
+                                <img src="img/+12.svg" width="40">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/debiELoide.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Debi & Loide - Dois Idiotas em Apuros</h5>
+                                <p class="card-text"><b>Principais atores:</b> Jim Carrey, Jeff Daniels, Lauren Holly
+                                </p>
+                                <p class="card-text"><b>Diretores:</b> Peter Farrelly, Bobby Farrelly</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1994</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal47">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal47" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b> MTV Movie Awards:</b></p>
+                                    Melhor Comediante <br>
+                                    Melhor Beijo<br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/aceVentura.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Ace Ventura - Um Detetive Diferente</h5>
+                                <p class="card-text"><b>Principais atores:</b> Jim Carrey, Courteney Cox, Sean Young,
+                                    Dan Marino </p>
+                                <p class="card-text"><b>Diretor:</b> Tom Shadyac</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1994</p>
+                                <img src="img/+14.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal48">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal48" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b> Nickelodeon Kid's Choice Award:</b></p>
+                            Ator de Cinema Favorito<br>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="romance" id="romance">
+                <h2 class="mt-3">Filmes de Romance</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/diarioDeUmaPaixao.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">O Diário de Uma Paixão</h5>
+                                <p class="card-text"><b>Principais atores:</b> Ryan Gosling, Rachel McAdams</p>
+                                <p class="card-text"><b>Diretor:</b> Nick Cassavetes</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2004</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal30"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal30" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>MTV Movie Awards:</b></p>
+                                    Melhor Beijo<br />
+                                    <br>
+                                    <p><b>Teen Choice Awards:</b></p>
+                                    Escolha de Filme de Drama<br />
+                                    Escolha de Filme de Encontro<br />
+                                    Escolha de Filme Ator - Drama<br />
+                                    Escolha de Filme Atriz - Drama<br />
+                                    Escolha Performance de Fuga – Masculino<br />
+                                    Escolha de Filme de Química<br />
+                                    Escolha de Beijo<br />
+                                    Escolha de Cena de Filme de Amor<br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/encontrosEDesencontros.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Encontros e Desencontros</h5>
+                                <p class="card-text"><b>Principais atores:</b> Bill Murray, Scarlett Johansson</p>
+                                <p class="card-text"><b>Diretora:</b> Sofia Coppola</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2003</p>
+                                <img src="img/+14.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal31"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal31" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Globo de Ouro:</b></p>
+                                    Melhor Ator – Filme Musical ou Comédia<br />
+                                    Melhor Filme – Musical ou Comédia<br />
+                                    Melhor Roteiro<br />
+                                    <br>
+                                    <p><b>National Society of Film Critics:</b></p>
+                                    Melhor Ator<br />
+                                    Melhor atriz<br />
+                                    Melhor diretor<br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                    <a class="btn btn-danger"
+                                        href="https://en.wikipedia.org/wiki/List_of_accolades_received_by_Lost_in_Translation_(film)"
+                                        target="_blank" role="button">Mais Prêmios!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/oCasamentoDoMeuMelhorAmigo.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">O Casamento Do Meu Melhor Amigo</h5>
+                                <p class="card-text"><b>Principais atores:</b> Julia Roberts, Dermot Mulroney</p>
+                                <p class="card-text"><b>Diretor:</b> P.J. Hogan</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1997</p>
+                                <img src="img/+10.png" width="40">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/aCulpaÉDasEstrelas.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">A Culpa é Das Estrelas</h5>
+                                <p class="card-text"><b>Principais atores:</b> Shailene Woodley, Ansel Elgort</p>
+                                <p class="card-text"><b>Diretor:</b> Josh Boone</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2014</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal32"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal32" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>MTV Movie Award:</b></p>
+                                    Melhor Beijo<br />
+                                    Melhor Filme<br />
+                                    Melhor Atriz<br />
+                                    <br>
+                                    <p><b>Teen Choice Award:</b></p>
+                                    Melhor Filme de Drama <br />
+                                    Melhor Ator em Filme de Drama<br />
+                                    Revelação em um Filme<br />
+                                    Ladrão de Cena<br />
+                                    Melhor Atriz de Drama/ Ação/ Aventura<br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                    <a class="btn btn-danger" href="https://www.imdb.com/pt/title/tt2582846/awards/"
+                                        target="_blank" role="button">Mais Prêmios!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/10CoisasQueOdeioEmVoce.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">10 Coisas Que Eu Odeio Em Voce</h5>
+                                <p class="card-text"><b>Principais atores:</b> Heath Ledger, Julia Stiles</p>
+                                <p class="card-text"><b>Diretor:</b> Gil Junger</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1999</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal33"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal33" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>MTV Movie Award:</b></p>
+                                    Melhor Revelação Feminina<br />
+                                    <br>
+                                    <p><b>Chicago Film Critics Association Award:</b></p>
+                                    Atriz Mais Promissora <br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                    <a class="btn btn-danger" href="https://www.imdb.com/pt/title/tt2582846/awards/"
+                                        target="_blank" role="button">Mais Prêmios!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/oNoivoDaMinhaMelhorAmiga.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">O Noivo Da Minha Melhor Amiga</h5>
+                                <p class="card-text"><b>Principais atores:</b> Kate Hudson, Anne Hathaway</p>
+                                <p class="card-text"><b>Diretor:</b> Gary Winick</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2009</p>
+                                <img src="img/+10.png" width="40">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/titanic.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Titanic</h5>
+                                <p class="card-text"><b>Principais atores:</b> Leonardo DiCaprio, Kate Winslet</p>
+                                <p class="card-text"><b>Diretor:</b> James Cameron</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1997</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal34"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal34" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Oscar 1998:</b></p>
+                                    Melhor Filme <br />
+                                    Melhor Trilha Sonora Original <br />
+                                    Melhor Direção<br />
+                                    Melhor Direção de Arte<br />
+                                    Melhor Fotografia<br />
+                                    Melhores Efeitos Visuais<br />
+                                    Melhor Figurino<br />
+                                    Melhor Montagem<br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                    <a class="btn btn-danger"
+                                        href="https://pt.wikipedia.org/wiki/Lista_de_pr%C3%AAmios_e_indica%C3%A7%C3%B5es_recebidos_por_Titanic#Pr%C3%AAmios_e_indica%C3%A7%C3%B5es"
+                                        target="_blank" role="button">Mais Prêmios!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/casablanca.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Casablanca</h5>
+                                <p class="card-text"><b>Principais atores:</b> Humphrey Bogart, Ingrid Bergman</p>
+                                <p class="card-text"><b>Diretor:</b> Michael Curtiz</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1942</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal35"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal35" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Oscar 1944:</b></p>
+                                    Melhor Direção <br />
+                                    Melhor Filme <br />
+                                    Melhor Roteiro Adaptado<br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/comoEuEraAntesDeVoce.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Como Eu Era Antes de Você</h5>
+                                <p class="card-text"><b>Principais atores:</b> Emilia Clarke, Sam Claflin</p>
+                                <p class="card-text"><b>Diretora:</b> Thea Sharrock</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2016</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal36"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal36" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>People's Choice Award:</b></p>
+                                    Melhor Filme de Drama<br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/paraTodosOsGarotosQueJaAmei.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Para Todos Os Garotos Que Já Amei</h5>
+                                <p class="card-text"><b>Principais atores:</b> Lana Condor, Noah Centineo</p>
+                                <p class="card-text"><b>Diretora:</b> Susan Johnson</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2018</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal37"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal37" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>MTV Movie Award:</b></p>
+                                    Melhor Beijo <br />
+                                    Melhor Revelação <br />
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/nottingHill.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Um Lugar Chamado Notting Hill</h5>
+                                <p class="card-text"><b>Principais atores:</b> Julia Roberts, Hugh Grant</p>
+                                <p class="card-text"><b>Diretor:</b> Roger Michell</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1999</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal38"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal38" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Prêmio BAFTA de Cinema:</b></p>
+                                    Prêmio Orange de Melhor Filme<br />
+                                    <br>
+                                    <p>British Comedy Award for Best Comedy Film</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/a5PassosDeVoce.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">A Cinco Passos De Você</h5>
+                                <p class="card-text"><b>Principais atores:</b> Haley Lu Richardson, Cole Sprouse</p>
+                                <p class="card-text"><b>Diretor:</b> Justin Baldoni</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2019</p>
+                                <img src="img/+12.svg" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal39"> Prêmios</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal39" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>People's Choice Award for the Drama Movie Star of the Year</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="animacao" id="animacao">
+                <h2 class="mt-3">Filmes de Animação</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/oReiLeao.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">O Rei Leão</h5>
+                                <p class="card-text"><b>Principais atores:</b> Matthew Broderick, James Earl Jones</p>
+                                <p class="card-text"><b>Diretor:</b> Roger Allers, Rob Minkoff</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1994</p>
+                                <img src="img/livre.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal49">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal49" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b> Oscar 1995:</b></p>
+                                    Melhor Canção Original<br>
+                                    Melhor Trilha Sonora Original<br>
+                                    <br>
+                                    <p><b> Prêmio Globo de Ouro:</b></p>
+                                    Melhor Trilha Sonora Original <br>
+                                    Melhor Filme Cômico ou Musical <br>
+                                    <br>
+                                    <p><b> Nickelodeon Kids' Choice Award:</b></p>
+                                    Filme Favorito <br>
+                                    <br>
+                                    <p>Satellite Award de Melhor DVD Jovem</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/toyStory.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Toy Story</h5>
+                                <p class="card-text"><b>Principais atores:</b> Tom Hanks, Tim Allen</p>
+                                <p class="card-text"><b>Diretor:</b> John Lasseter</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1995</p>
+                                <img src="img/livre.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal50">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal50" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Special Achievement Academy Award</p>
+                                    <br>
+                                    <p>Prêmio do Sindicato de Produtores da América - Special Award of Merit</p>
+                                    <br>
+                                    <p>Annie Award Design de Produção em uma Produção de Longa-metragem</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/shrek.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Shrek</h5>
+                                <p class="card-text"><b>Principais atores:</b> Mike Myers, Eddie Murphy</p>
+                                <p class="card-text"><b>Diretor:</b> Andrew Adamson, Vicky Jenson</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2001</p>
+                                <img src="img/livre.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal51">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal51" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Oscar 2002:</b></p>
+                                    Melhor Filme de Animação<br>
+                                    <br>
+                                    <p><b>Critics' Choice Award:</b></p>
+                                    Melhor Filme de Animação<br>
+                                    <br>
+                                    <p><b>People's Choice Award:</b></p>
+                                    Filme Favorito <br>
+                                    Melhor Ator em Filme de Comédia<br>
+                                    <br>
+                                    <p><b>Prêmio BAFTA de Cinema:</b></p>
+                                    Melhor Roteiro Adaptado <br>
+                                    <br>
+                                    <p><b>Nickelodeon Kids' Choice Award:</b></p>
+                                    Voz Favorita em Filme de Animação
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/procurandoNemo.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Procurando Nemo</h5>
+                                <p class="card-text"><b>Principais atores:</b> Albert Brooks, Ellen DeGeneres</p>
+                                <p class="card-text"><b>Diretor:</b> Andrew Stanton</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2003</p>
+                                <img src="img/livre.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal52">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal52" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Oscar 2004:</b></p>
+                                    Melhor Filme de Animação<br>
+                                    <br>
+                                    <p><b>Critics' Choice Award:</b></p>
+                                    Melhor Filme de Animação<br>
+                                    <br>
+                                    <p><b>Prêmio AFI:</b></p>
+                                    Melhor Filme do Ano <br>
+                                    <br>
+                                    <p><b>Nickelodeon Kids' Choice Award:</b></p>
+                                    Filme Favorito <br>
+                                    Voz Favorita em Filme de Animação
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar
+                                    </button>
+                                    <a class="btn btn-danger"
+                                        href="https://www.google.com/search?sca_esv=c040be438cc12ffb&rlz=1C1GCEU_pt-BRBR1161BR1162&biw=1517&bih=665&sxsrf=AHTn8zrYt_fcyx6f6jy7WQkBLViWheIoqw:1747854114041&q=Nickelodeon+Kids%27+Choice+Award:+Voz+Favorita+em+Filme+de+Anima%C3%A7%C3%A3o&stick=H4sIAAAAAAAAAONgFuLUz9U3MMwqSkpS4gIxTVLyDNKytYQcyxOLUsIz8_JSi0LywZxFrM5-mcnZqTn5Kan5eQremSnF6grOGfmZyakKYAVWCmH5VQpuiWX5RZkliQqpuQpumTm5qQopQPm8zNzEw8sPL84HAOXbV7ZzAAAA&sa=X&ved=2ahUKEwiptNj8n7WNAxV8LbkGHTq-H0wQri56BAg8EBc"
+                                        target="_blank" role="button">Mais Prêmios!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/osIncriveis.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Os Incríveis</h5>
+                                <p class="card-text"><b>Principais atores:</b> Craig T. Nelson, Holly Hunter</p>
+                                <p class="card-text"><b>Diretor:</b> Brad Bird</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2004</p>
+                                <img src="img/livre.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal53">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal53" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Oscar 2005:</b></p>
+                                    Melhor Filme de Animação<br>
+                                    Melhor Edição de Som
+                                    <br>
+                                    <p><b>Critics' Choice Award:</b></p>
+                                    Melhor Filme de Animação<br>
+                                    <br>
+                                    <p><b>Satellite Award:</b></p>
+                                    Melhor Filme de Animação <br>
+                                    <br>
+                                    <p><b>Nickelodeon Kids' Choice Award:</b></p>
+                                    Filme Favorito
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/aPrincesaEOSapo.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">A Princesa e o Sapo</h5>
+                                <p class="card-text"><b>Principais atores:</b> Anika Noni Rose, John Musker</p>
+                                <p class="card-text"><b>Diretores:</b> John Musker, Ron Clements</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2009</p>
+                                <img src="img/livre.png" width="40">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/comoTreinarOSeuDragao.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Como Treinar O Seu Dragão</h5>
+                                <p class="card-text"><b>Principais atores:</b> Jay Baruchel, Gerard Butler</p>
+                                <p class="card-text"><b>Diretores:</b> Dean DeBlois, Chris Sanders</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2010</p>
+                                <img src="img/livre.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal55">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal55" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Annie Awards:</b></p>
+                                    Melhor Filme de Animação<br>
+                                    Melhor Dublagem em Uma Produção de Longa Metragem<br>
+                                    Música em uma Produção de Longa Metragem <br>
+                                    Melhores Efeitos Animados <br>
+                                    Melhor Roteiro para Produção de Filme de Animação <br>
+                                    Storyboard em Produção de Longa Metragem <br>
+                                    Melhor Produção em Longa Metrgem de Animação <br>
+                                    Melhor Design de Personagens <br>
+                                    Melhor Animação de Personagem em Longa-metragem <br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar
+                                    </button>
+                                    <a class="btn btn-danger"
+                                        href="https://en.wikipedia.org/wiki/List_of_accolades_received_by_How_to_Train_Your_Dragon_(2010_film)#Accolades"
+                                        target="_blank" role="button">Mais Prêmios!
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/frozen.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Frozen - Uma Aventura Congelante</h5>
+                                <p class="card-text"><b>Principais atores:</b> Kristen Bell, Idina Menzel</p>
+                                <p class="card-text"><b>Diretores:</b> Chris Buck, Jennifer Lee</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2013</p>
+                                <img src="img/livre.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal56">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal56" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Oscar 2014:</b></p>
+                                    Melhor Filme de Animação<br>
+                                    <br>
+                                    <p><b>Critics' Choice Award:</b></p>
+                                    Melhor Filme de Animação<br>
+                                    <br>
+                                    <p><b>Globo de Ouro: </b></p>
+                                    Melhor Filme de Animação <br>
+                                    <br>
+                                    <p><b>Prêmio BAFTA de Cinema:</b></p>
+                                    Melhor Animação<br>
+                                    <br>
+                                    <p><b>Nickelodeon Kids' Choice Award:</b></p>
+                                    Filme de Animação Favorito
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar
+                                    </button>
+                                    <a class="btn btn-danger"
+                                        href="https://www.google.com/search?sca_esv=c040be438cc12ffb&rlz=1C1GCEU_pt-BRBR1161BR1162&biw=1517&bih=665&sxsrf=AHTn8zr48SYD1PGCVhsk2By9YHnEijbigA:1747854852201&q=Critics%27+Choice+Award:+Melhor+Filme+de+Anima%C3%A7%C3%A3o&stick=H4sIAAAAAAAAAONgFuLSz9U3yC7LKDKtVOIEsS1LCitKtIQcyxOLUsIz8_JSi0LywZxFrIbORZklmcnF6grOGfmZyakKYHErBd_UnIz8IgW3zJzcVIUUoHBeZm7i4eWHF-cDAGTSyThhAAAA&sa=X&ved=2ahUKEwi5ldbcorWNAxXNRLgEHQgDMq0Qri56BAg4EAk"
+                                        target="_blank" role="button">Mais Prêmios!
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/mulan.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Mulan</h5>
+                                <p class="card-text"><b>Principais atores:</b> Ming-Na Wen, Eddie Murphy</p>
+                                <p class="card-text"><b>Diretores:</b> Tony Bancroft, Barry Cook</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 1998</p>
+                                <img src="img/livre.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal57">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal57" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Annie Award:</b></p>
+                                    Melhor Filme de Animação<br>
+                                    <br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/Enrolados.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Enrolados</h5>
+                                <p class="card-text"><b>Principais atores:</b> Mandy Moore, Zachary Levi</p>
+                                <p class="card-text"><b>Diretores:</b> Nathan Greno, Byron Howard</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2012</p>
+                                <img src="img/livre.png" width="40">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/rio.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Rio</h5>
+                                <p class="card-text"><b>Principais atores:</b> Jesse Eisenberg, Anne Hathaway, Carlos
+                                    Saldanha</p>
+                                <p class="card-text"><b>Diretor:</b> John Musker</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2011</p>
+                                <img src="img/livre.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal59">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal59" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Annie Award:</b></p>
+                                    Melhor Animação de Personagem em Longa Metragem<br>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card p-2 my-4" style="width: 18rem;">
+                            <img src="img/viva.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Viva - A Vida É Uma Festa</h5>
+                                <p class="card-text"><b>Principais atores:</b> Anthony Gonzalez, Gael García Bernal</p>
+                                <p class="card-text"><b>Diretores:</b> Lee Unkrich, Adrian Molina</p>
+                                <p class="card-text"><b>Ano de lançamento:</b> 2017</p>
+                                <img src="img/livre.png" width="40">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal60">
+                                    Prêmios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModal60" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Prêmios recebidos:</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Oscar 2018:</b></p>
+                                    Melhor Filme de Animação<br>
+                                    <br>
+                                    <p><b>Critics' Choice Award:</b></p>
+                                    Melhor Filme de Animação<br>
+                                    <br>
+                                    <p><b>Globo de Ouro:</b></p>
+                                    Melhor Filme de Animação <br>
+                                    <br>
+                                    <p><b>Prêmio BAFTA de Cinema:</b></p>
+                                    Melhor Animação<br>
+                                    <br>
+                                    <p><b>Nickelodeon Kids' Choice Award:</b></p>
+                                    Filme de Animação Favorito
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar
+                                    </button>
+                                    <a class="btn btn-danger"
+                                        href="https://www.google.com/search?sca_esv=c040be438cc12ffb&rlz=1C1GCEU_pt-BRBR1161BR1162&biw=1517&bih=665&sxsrf=AHTn8zoIs4NjS-8UBrfEHtyBnd2hQT9h0A:1747855412147&q=Pr%C3%AAmio+BAFTA+de+Cinema:+Melhor+Anima%C3%A7%C3%A3o&stick=H4sIAAAAAAAAAONgFuLVT9c3NEw2LjA1qCiMV-LSz9U3MCqsrCg21RJyLE8sSgnPzMtLLQrJB3MWsWoFFB1elZuZr-Dk6BbiqJCSquCcmZeam2il4Juak5FfpOCYl5mbeHj54cX5ADLxx8ZeAAAA&sa=X&ved=2ahUKEwj-x9bnpLWNAxV3ArkGHcFeAyAQri56BAg8EAc"
+                                        target="_blank" role="button">Mais Prêmios!
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="w-75 m-auto">
+            <p class="py-2">&copy; Cine World | Criado por Isabele Tomazoni e Sophia Duquesne</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+

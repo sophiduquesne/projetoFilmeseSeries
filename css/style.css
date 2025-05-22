@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+.estilo {
+    font-family: Merriweather;
+    background-color: #fff8dd;
+}
+.nav {
+    background-color: #c0012a;
+}
+.nav a {
+    color: white;
+}
+.nav a:hover {
+    color: #ffb300;
+    transform: scale(1.1);
+}
+
+.rodape{
+    background-color: #c0012a;
+    color: white;
+    text-align: center;
+}
+
+.filmes h2{
+    color:#c0012a;
+}
+
+.series h2{
+    color:#c0012a;
+}
+
+
+.card {
+    box-shadow: 2px 2px 3px 1px rgba(77, 77, 77, 0.808);
+}
+
+.imagens img{
+    width: 200;
+    height: 150;
+}
+
+
+.lançamentos{
+    background-color: #c0012a;
+    color: #fff5cb; 
+}
+
+.oscar{
+    background-color: #c0012a;
+    color: #fff5cb; 
+}
+
+.botao{
+    text-decoration: #fff5cb;
+    align-items: center;
+    text-align: center;
+}
+.botao a{
+    align-items: center;
+    background-color: transparent;
+    color: #c0012a;
+    border: 2px solid #c0012a;
+    position: relative;
+    
+}
+.botao a:hover{
+    background-color: #c0012a;
+    align-items: center;
+    
+}
+.btn-border-reveal:hover::after {
+  width: 100%;
+}
+
+.btn-border-reveal:hover {
+  color: white;
+}
